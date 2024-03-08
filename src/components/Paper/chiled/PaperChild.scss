@@ -1,0 +1,37 @@
+
+
+
+ul.linkPaperAfro3 {
+display: flex;
+flex-wrap: wrap;
+row-gap: 5px;
+// margin: 10px;
+        .afro3-btn {
+            display: block;
+            text-decoration: none;
+            color: black !important;
+            width: fit-content;
+            padding: 0 10px;
+            height: 40px;
+            border: 3px solid #183D3D !important;
+            background-color: #fff !important;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            border-radius: 6px;
+            font-weight: bold;  
+            margin: 0 3px;
+        }
+        .afro3-btn:focus {
+            background-color: #183D3D !important;
+            color: #fff !important;
+            
+        }
+        .activePaper{
+            background-color: #183D3D !important;
+            color: #fff !important;
+            pointer-events: none;
+        }
+     
+}

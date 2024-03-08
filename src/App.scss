@@ -1,0 +1,59 @@
+ul.linkPaperAfro3 {
+  display: flex;
+
+  .afro3-btn {
+    display: block;
+    text-decoration: none;
+    color: black !important;
+    width: fit-content;
+    padding: 0 10px;
+    height: 40px;
+    border: 3px solid #183d3d !important;
+    background-color: #fff !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 6px;
+    font-weight: bold;
+    margin: 0 3px;
+  }
+  .afro3-btn:focus {
+    background-color: #183d3d !important;
+    color: #fff !important;
+  }
+  .activePaper {
+    background-color: #183d3d !important;
+    color: #fff !important;
+    pointer-events: none;
+  }
+}
+
+section.register,
+section.login {
+  height: 100vh;
+  background-size: cover;
+  position: relative;
+  h2 {
+    border-bottom: 2px solid #000;
+    width: fit-content;
+  }
+}
+
+section.register .box,
+section.login .box {
+  position: relative;
+  z-index: 9;
+  color: #fff;
+  label {
+    color: #000;
+  }
+  h2 {
+    border-bottom: 2px solid black;
+    width: fit-content;
+    color: #000;
+  }
+  form {
+    margin-top: 40px;
+  }
+}

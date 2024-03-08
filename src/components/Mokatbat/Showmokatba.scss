@@ -1,0 +1,101 @@
+.mosalsl {
+  max-width: fit-content !important;
+}
+.hide_ele {
+  display: none !important;
+}
+.top-print,
+#myTable {
+  width: 98%;
+  margin: auto;
+  h2 {
+    color: #000;
+  }
+  .not .btn {
+    pointer-events: none !important;
+    color: yellow;
+  }
+}
+.top-print h4 {
+  font-size: 12px;
+}
+
+.dataAdd {
+  width: 130px !important;
+}
+.time {
+  width: 20px !important;
+}
+.type {
+  width: 110px !important;
+}
+
+.regNum {
+  width: 110px !important;
+}
+.deleteV,
+.editV {
+  width: 50px !important;
+}
+.pagination-buttons {
+  display: flex;
+  margin-right: 15px;
+  gap: 5px;
+}
+.pagination-buttons li {
+  cursor: pointer;
+
+  width: 50px;
+  height: 50px;
+  color: #fff;
+  background-color: #000;
+  border: 1px solid red;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+ul#myListImg {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  .img-click-here {
+    width: 100px;
+    height: 100px;
+  }
+}
+.image_showing {
+  width: 25px;
+  height: 25px;
+}
+.content-preview {
+  .descccc {
+    font-size: 12px;
+  }
+  .count-img {
+    color: #777;
+    font-size: 10px;
+  }
+}
+
+.serach-box {
+  width: 100%;
+}
+.serach-box .group-btn {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 20px 10px 15px;
+  gap: 10px;
+  .btn {
+    color: #fff;
+    font-weight: bolder;
+    border: 1px solid red;
+  }
+}
+.serach-box form {
+  display: flex;
+  gap: 10px;
+}
+.title h2 {
+  color: #000;
+  border-bottom: 1px solid red;
+}

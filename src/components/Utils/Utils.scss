@@ -1,0 +1,23 @@
+ul.main {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  left: 50%;
+}
+
+.cardsss {
+  padding: 10px;
+  width: 350px;
+  text-align: center;
+  background-color: red;
+  border: 4px solid #000000d2;
+  border-radius: 10px;
+  a {
+    z-index: 9999;
+    position: relative;
+    color: #fff !important;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+  }
+}
